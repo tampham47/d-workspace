@@ -5,242 +5,95 @@
 	<title>DUPLEX</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="generator" content="motive">
+
 	<!-- custom css -->
 	<link rel="stylesheet" href="css/style.css" />
 	<!-- responsive -->
 	<link rel="stylesheet" href="css/responsive.css" />
-	<link rel="stylesheet" href="stylesheets/app.css" />
 </head>
 <body>
 	<div class="preloaderbox"></div>
-	<!-- start header -->
-	<div id="header_social">
-		<div class="container">
-			<div class="row">
-				<!-- company information -->
-				<div class="col-lg-7 col-md-8 col-sm-9 col-xs-12">
-					<div class="company_cell">
-						<ul>
-							<li><i class="fa fa-envelope-o"></i> <a href="" >companymail@gmail.com </a></li>
-							<li><i class="fa fa-phone"></i><a href="">8801833920054</a></li>
-							<li><i class="fa fa-clock-o"></i><a href="" >Mon - Fri : 9:00 -1700</a></li>
+	<!-- ****************************** Sidebar ************************** -->
+	<nav id="sidebar-wrapper">
+		 <div class="nav-side-menu">
+		 <a id="menu-close" href="#" class="close-btn toggle">  <i class="fa fa-times"></i></a>
+		<div class="brand"> DUPLEX</div>
+			<i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+
+			<div class="menu-list">
+
+				<ul id="menu-content" class="menu-content collapse out" >
+					<li data-toggle="collapse" data-target="#home" class="collapsed" >
+						<a href="index.html">
+						<i class="fa fa-home fa-lg"></i> Home
+						</a>
+						<span class="arrow"></span>
+						<ul class="sub-menu collapse" id="home">
+						  <li><a href="index.html">Home V1</a></li>
+						 <li><a href="index-v2.html">Home V2</a></li>
+						 <li><a href="index-v3.html">Home V3</a></li>
 						</ul>
-					</div>
-				</div>
+					</li>
+					<li>
+					  <a href="about.html"><i class="fa fa-users fa-lg"></i> about</a>
+					</li>
 
-				<!-- social menu -->
-				<div class="col-lg-5 col-md-4 col-sm-3 col-xs-12">
-					<div class="cotact_social top-social pull-right">
-						<div class="footer_social pull-right">
-							<a href="http://www.facebook.com" class="i fa fa-facebook"></a>
-							<a href="http://www.twitter.com" class="i fa fa-twitter"></a>
-							<a href="http://www.google.com" class="i fa fa-google-plus"></a>
-							<a href="http://www.pinterest.com" class="i fa fa-pinterest"></a>
-							<a href="http://www.rss.com" class="i fa fa-rss"></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+					<li data-toggle="collapse" data-target="#service" class="collapsed">
+						<a href="#"><i class="fa fa-cubes fa-lg"></i> project</a>
+						 <span class="arrow"></span>
+						<ul class="sub-menu collapse" id="service">
+							 <li><a href="project.html">Project-v1</a></li>
+							<li><a href="project-v2.html">Project-v2</a></li>
+							<li><a href="project-v3.html">Project-v3</a></li>
+						</ul>
+					</li>
+					<li>
+					  <a href="service.html"><i class="fa fa-street-view fa-lg"></i> service</a>
+					</li>
 
-	<!-- header stricky menu -->
-	<header class="header stricky">
-		<div class="service_page">
-			<div class="container">
-				<section id="manu_area" class="manu_service">
-				<h2 class="hide">menu</h2>
-				<div class="navbar" role="navigation">
-				  <div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					  <span class="sr-only">Toggle navigation</span>
-					  <span class="icon-bar"></span>
-					  <span class="icon-bar"></span>
-					  <span class="icon-bar"></span>
-					</button>
-					<!-- logo here -->
-					<a class="navbar-brand" href="index.html">
-						<span class="brand-title--first">W</span><span class="brand-title--rest">orkspace</span>
-					</a>
-				  </div>
+					 <li>
+					  <a href="blog.html">
+					  <i class="fa fa-user fa-lg"></i> blog
+					  </a>
+					  </li>
+					<li data-toggle="collapse" data-target="#page" class="collapsed">
+						<a href="#"><i class="fa fa-cubes fa-lg"></i> Page </a>
+						<span class="arrow"></span>
+						<ul class="sub-menu collapse" id="page">
+							 <li><a href="blog_fullwidth.html">Full-Width Blog</a></li>
+							  <li><a href="blog-details.html">Blog details</a></li>
+							  <li><a href="shop.html">shop</a></li>
 
-				  <!-- Main menu aea -->
-				  <div class="navbar-collapse collapse">
-					<!-- Right nav -->
-					<ul class="nav navbar-nav main-menu scroll-menu">
-						<li class=""><a href="index.html">HOME<span class="border"></span><span class="caret caret-home"></span></a>
-							<ul class="dropdown-menu submenu">
-							  <li ><a href="index.html">Home V1</a></li>
-							  <li><a href="index-v2.html">Home V2</a></li>
-							  <li><a href="index-v3.html">Home V3</a></li>
-							</ul>
-						</li>
-						<li><a href="about.html ">ABOUT<span class="border"></span></a>
-							<ul class="dropdown-menu hidesubmenu">  </ul>
-						</li>
-					   <li><a href="project.html">PROJECT<span class="border"></span><span class="caret caret-home"></span></a>
-							<ul class="dropdown-menu submenu">
-								<li><a href="project.html">Project-v1</a></li>
-								<li><a href="project-v2.html">Project-v2</a></li>
-								<li><a href="project-v3.html">Project-v3</a></li>
-							</ul>
-						</li>
-						<li><a href="service.html ">SERVICE<span class="border"></span></a>
-							<ul class="dropdown-menu hidesubmenu"> </ul>
-						</li>
-
-						<li><a href="#">PAGE<span class="border"></span><span class="caret caret-home"></span></a>
-							<ul class="dropdown-menu submenu">
-								<li><a href="blog_fullwidth.html">Full-Width Blog</a></li>
-								<li><a href="blog-details.html">Blog details</a></li>
-								<li><a href="shop.html">Shop</a></li>
-							</ul>
-						</li>
-						<li><a href="blog.html">BLOG<span class="border"></span></a>
-							<ul class="dropdown-menu hidesubmenu"> </ul>
-						</li>
-						<li><a href="contact.html">CONTACT US</a>
-							<ul class="dropdown-menu hidesubmenu"></ul>
-						</li>
+						</ul>
+					</li>
+					 <li>
+					  <a href="contact.html">
+					  <i class="fa fa-envelope-o fa-lg"></i> contact us
+					  </a>
+					</li>
 					</ul>
-				  </div>
-				</div>
-			</section>
+			 </div>
+		</div>
+	</nav>
+	<!-- ****************************** Header ************************** -->
+	<header class="sticky" id="header">
+		<div class="container">
+			<div class="row" id="logo_menu">
+				<div class="col-xs-6"><a class="logo" href="">DUPLIX</a></div>
+				<div class="col-xs-6"><a id="menu-toggle" href="#" class="toggle" role="button" title="Navigation" data-toggle="tooltip" data-placement="left"><i class="fa fa-bars"></i></a></div>
 			</div>
 		</div>
-    </header>
-	<!-- start header -->
+	</header>
+	<!--Main Slider-->
+    <section class="main-slider">
 
-  <!--Main Slider-->
-  <section class="main-slider">
+	   <div class="tp-banner-container">
+		  <div class="tp-banner">
+			 <ul>
 
-   <div class="tp-banner-container">
-	  <div class="tp-banner">
-		 <ul>
+				<li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb=" img/Fullslider/slider.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
+				<img src=" img/Fullslider/slider.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
-			<li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="img/slide/slide01.png"  data-saveperformance="off"  data-title="Awesome Title Here">
-				<img src="img/slide/slide01.png"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-
-				<div class="tp-caption lft tp-resizeme"
-				data-x="center" data-hoffset="0"
-				data-y="center" data-voffset="-100"
-				data-speed="1500"
-				data-start="500"
-				data-easing="easeOutExpo"
-				data-splitin="none"
-				data-splitout="none"
-				data-elementdelay="0.01"
-				data-endelementdelay="0.3"
-				data-endspeed="1200"
-				data-endeasing="Power4.easeIn"
-				style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap; color:red"><h1 class="bold-heading">WE PROVIDE</h1></div>
-
-				<div class="tp-caption lft tp-resizeme"
-				data-x="center" data-hoffset="0"
-				data-y="center" data-voffset="-20"
-				data-speed="1500"
-				data-start="1000"
-				data-easing="easeOutExpo"
-				data-splitin="none"
-				data-splitout="none"
-				data-elementdelay="0.01"
-				data-endelementdelay="0.3"
-				data-endspeed="1200"
-				data-endeasing="Power4.easeIn"
-				style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap; color:red"><div class="roman-text theme_color">BEST INTERIOR DESIGN</div></div>
-
-				<div class="tp-caption lfb tp-resizeme title"
-				data-x="center" data-hoffset="0"
-				data-y="center" data-voffset="50"
-				data-speed="1500"
-				data-start="1500"
-				data-easing="easeOutExpo"
-				data-splitin="none"
-				data-splitout="none"
-				data-elementdelay="0.01"
-				data-endelementdelay="0.3"
-				data-endspeed="1200"
-				data-endeasing="Power4.easeIn"
-				style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap; color:red"><h2 class="trans-heading">Lorem Ipsum is simply dummy text industry</h2></div>
-
-				<div class="tp-caption lfb tp-resizeme slider-btn"
-				data-x="center" data-hoffset="0"
-				data-y="center" data-voffset="120"
-				data-speed="1500"
-				data-start="2000"
-				data-easing="easeOutExpo"
-				data-splitin="none"
-				data-splitout="none"
-				data-elementdelay="0.01"
-				data-endelementdelay="0.3"
-				data-endspeed="1200"
-				data-endeasing="Power4.easeIn"
-				style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap; color:red"><a class="theme-btn radial-btn" href="#">TAKE A TOUR</a></div>
-			</li>
-
-			<li data-transition="slidedown" data-slotamount="1" data-masterspeed="1000" data-thumb="img/slide/slide02.jpg" data-saveperformance="off" data-title="Awesome Title Here">
-				<img src="img/slide/slide02.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-
-				<div class="tp-caption lft tp-resizeme"
-				data-x="center" data-hoffset="0"
-				data-y="center" data-voffset="-100"
-				data-speed="1500"
-				data-start="500"
-				data-easing="easeOutExpo"
-				data-splitin="none"
-				data-splitout="none"
-				data-elementdelay="0.01"
-				data-endelementdelay="0.3"
-				data-endspeed="1200"
-				data-endeasing="Power4.easeIn"
-				style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap; color:red"><h1 class="bold-heading">WE PROVIDE</h1></div>
-
-				<div class="tp-caption lft tp-resizeme"
-				data-x="center" data-hoffset="0"
-				data-y="center" data-voffset="-20"
-				data-speed="1500"
-				data-start="1000"
-				data-easing="easeOutExpo"
-				data-splitin="none"
-				data-splitout="none"
-				data-elementdelay="0.01"
-				data-endelementdelay="0.3"
-				data-endspeed="1200"
-				data-endeasing="Power4.easeIn"
-				style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap; color:red"><div class="roman-text theme_color">BEST INTERIOR DESIGN</div></div>
-
-				<div class="tp-caption lfb tp-resizeme title"
-				data-x="center" data-hoffset="0"
-				data-y="center" data-voffset="50"
-				data-speed="1500"
-				data-start="1500"
-				data-easing="easeOutExpo"
-				data-splitin="none"
-				data-splitout="none"
-				data-elementdelay="0.01"
-				data-endelementdelay="0.3"
-				data-endspeed="1200"
-				data-endeasing="Power4.easeIn"
-				style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;"><h2 class="trans-heading">Lorem Ipsum is simply dummy text industry</h2></div>
-
-				<div class="tp-caption lfb tp-resizeme slider-btn"
-				data-x="center" data-hoffset="0"
-				data-y="center" data-voffset="120"
-				data-speed="1500"
-				data-start="2000"
-				data-easing="easeOutExpo"
-				data-splitin="none"
-				data-splitout="none"
-				data-elementdelay="0.01"
-				data-endelementdelay="0.3"
-				data-endspeed="1200"
-				data-endeasing="Power4.easeIn"
-				style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;"><a class="theme-btn radial-btn" href="#">TAKE A TOUR</a></div>
-
-			</li>
-
-			<li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="img/slide/slide03.png" data-saveperformance="off" data-title="Awesome Title Here">
-				<img src="img/slide/slide03.png" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
 				<div class="tp-caption lft tp-resizeme"
 				data-x="center" data-hoffset="0"
@@ -270,6 +123,7 @@
 				data-endeasing="Power4.easeIn"
 				style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;"><div class="roman-text theme_color">BEST INTERIOR DESIGN</div></div>
 
+
 				<div class="tp-caption lfb tp-resizeme title"
 				data-x="center" data-hoffset="0"
 				data-y="center" data-voffset="50"
@@ -284,6 +138,7 @@
 				data-endeasing="Power4.easeIn"
 				style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;"><h2 class="trans-heading">Lorem Ipsum is simply dummy text industry</h2></div>
 
+
 				<div class="tp-caption lfb tp-resizeme slider-btn"
 				data-x="center" data-hoffset="0"
 				data-y="center" data-voffset="120"
@@ -297,33 +152,165 @@
 				data-endspeed="1200"
 				data-endeasing="Power4.easeIn"
 				style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;"><a class="theme-btn radial-btn" href="#">TAKE A TOUR</a></div>
-			</li>
-		 </ul>
-		<div class="tp-bannertimer"></div>
-	  </div>
-   </div>
-  </section>
-  <!-- Main slider end -->
 
-	<!--- start area -->
-	<section id="aboutus_area">
+
+				</li>
+
+				<li data-transition="slidedown" data-slotamount="1" data-masterspeed="1000" data-thumb=" img/Fullslider/slider1.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
+				<img src=" img/Fullslider/slider1.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+
+				<div class="tp-caption lft tp-resizeme"
+				data-x="center" data-hoffset="0"
+				data-y="center" data-voffset="-100"
+				data-speed="1500"
+				data-start="500"
+				data-easing="easeOutExpo"
+				data-splitin="none"
+				data-splitout="none"
+				data-elementdelay="0.01"
+				data-endelementdelay="0.3"
+				data-endspeed="1200"
+				data-endeasing="Power4.easeIn"
+				style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;"><h1 class="bold-heading">WE PROVIDE</h1></div>
+
+				<div class="tp-caption lft tp-resizeme"
+				data-x="center" data-hoffset="0"
+				data-y="center" data-voffset="-20"
+				data-speed="1500"
+				data-start="1000"
+				data-easing="easeOutExpo"
+				data-splitin="none"
+				data-splitout="none"
+				data-elementdelay="0.01"
+				data-endelementdelay="0.3"
+				data-endspeed="1200"
+				data-endeasing="Power4.easeIn"
+				style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;"><div class="roman-text theme_color">BEST INTERIOR DESIGN</div></div>
+
+
+				<div class="tp-caption lfb tp-resizeme title"
+				data-x="center" data-hoffset="0"
+				data-y="center" data-voffset="50"
+				data-speed="1500"
+				data-start="1500"
+				data-easing="easeOutExpo"
+				data-splitin="none"
+				data-splitout="none"
+				data-elementdelay="0.01"
+				data-endelementdelay="0.3"
+				data-endspeed="1200"
+				data-endeasing="Power4.easeIn"
+				style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;"><h2 class="trans-heading">Lorem Ipsum is simply dummy text industry</h2></div>
+
+
+				<div class="tp-caption lfb tp-resizeme slider-btn"
+				data-x="center" data-hoffset="0"
+				data-y="center" data-voffset="120"
+				data-speed="1500"
+				data-start="2000"
+				data-easing="easeOutExpo"
+				data-splitin="none"
+				data-splitout="none"
+				data-elementdelay="0.01"
+				data-endelementdelay="0.3"
+				data-endspeed="1200"
+				data-endeasing="Power4.easeIn"
+				style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;"><a class="theme-btn radial-btn" href="#">TAKE A TOUR</a></div>
+
+				</li>
+
+				<li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb=" img/Fullslider/slider2.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
+				<img src=" img/Fullslider/slider2.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+
+				<div class="tp-caption lft tp-resizeme"
+				data-x="center" data-hoffset="0"
+				data-y="center" data-voffset="-100"
+				data-speed="1500"
+				data-start="500"
+				data-easing="easeOutExpo"
+				data-splitin="none"
+				data-splitout="none"
+				data-elementdelay="0.01"
+				data-endelementdelay="0.3"
+				data-endspeed="1200"
+				data-endeasing="Power4.easeIn"
+				style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;"><h1 class="bold-heading">WE PROVIDE</h1></div>
+
+				<div class="tp-caption lft tp-resizeme"
+				data-x="center" data-hoffset="0"
+				data-y="center" data-voffset="-20"
+				data-speed="1500"
+				data-start="1000"
+				data-easing="easeOutExpo"
+				data-splitin="none"
+				data-splitout="none"
+				data-elementdelay="0.01"
+				data-endelementdelay="0.3"
+				data-endspeed="1200"
+				data-endeasing="Power4.easeIn"
+				style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;"><div class="roman-text theme_color">BEST INTERIOR DESIGN</div></div>
+
+
+				<div class="tp-caption lfb tp-resizeme title"
+				data-x="center" data-hoffset="0"
+				data-y="center" data-voffset="50"
+				data-speed="1500"
+				data-start="1500"
+				data-easing="easeOutExpo"
+				data-splitin="none"
+				data-splitout="none"
+				data-elementdelay="0.01"
+				data-endelementdelay="0.3"
+				data-endspeed="1200"
+				data-endeasing="Power4.easeIn"
+				style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;"><h2 class="trans-heading">Lorem Ipsum is simply dummy text industry</h2></div>
+
+
+				<div class="tp-caption lfb tp-resizeme slider-btn"
+				data-x="center" data-hoffset="0"
+				data-y="center" data-voffset="120"
+				data-speed="1500"
+				data-start="2000"
+				data-easing="easeOutExpo"
+				data-splitin="none"
+				data-splitout="none"
+				data-elementdelay="0.01"
+				data-endelementdelay="0.3"
+				data-endspeed="1200"
+				data-endeasing="Power4.easeIn"
+				style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;"><a class="theme-btn radial-btn" href="#">TAKE A TOUR</a></div>
+
+				</li>
+			 </ul>
+
+			<div class="tp-bannertimer"></div>
+		  </div>
+	   </div>
+    </section>
+    <!-- slider area end -->
+	<section id="aboutus_area_two">
 		<div class="container">
 			<div class="row">
-
-				<!-- section title -->
-				<div class="head_title about text-center">
-					<h4>About us</h4>
-					<h2>We Are Duplex</h2>
-					<span class="text-center"></span>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley </p>
+			<!-- section title -->
+				<div class="about_bg">
+					<div class="head_title home-v2 text-center">
+						<h2>We Are Duplex</h2>
+						<div class="about_border">-</div>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley </p>
+					</div>
 				</div>
+			</div>
+		</div>
+	</section>
 
+	<!--- start area -->
+	<section id="aboutus_area_home">
+		<div class="container">
+			<div class="row">
 				<!-- about icon content -->
-				<div class="about_content">
-
-					<!-- about one -->
+				<div class="about_content_v2">
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-
+						<!-- about one -->
 						<div class="single_about">
 							<div class="single_icon">
 								<span class="flaticon-engineer"></span>
@@ -336,9 +323,8 @@
 							</div>
 						</div>
 					</div>
-
-					<!-- about two -->
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<!-- about two -->
 						<div class="single_about">
 							<div class="single_icon">
 								<span class="flaticon-protection3"></span>
@@ -351,9 +337,8 @@
 							</div>
 						</div>
 					</div>
-
-					<!-- about three -->
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<!-- about three -->
 						<div class="single_about">
 							<div class="single_icon">
 								<span class="flaticon-maths5"></span>
@@ -368,135 +353,86 @@
 					</div>
 				</div>
 				<!--- about main content -->
-
-				<!-- about box one -->
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<div class="about_box_one">
-						<div class="about_single">
-							<div class="img-holder">
-								<img src=" img/home-1/about1.jpg" alt="img" />
-								<div class="overlay">
-									<a href=""><i class="fa fa-link"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="about_text">
-							<h3>01</h3>
-							<span></span>
-							<h2>INTERIOR</h2>
-							<p>There are many variations of passages of Lorem Ipsum text available, but the fact is lorem ipsum dummy text are many  is dummy text ever i have seen </p>
-							<a href="">READ MORE</a>
-						</div>
-					</div>
-				</div>
-
-				<!-- about box two -->
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<div class="about_single">
-						<div class="img-holder">
-							<img src=" img/home-1/about2.jpg" alt="img" />
-							<div class="overlay">
-								<a href="#"><i class="fa fa-link"></i></a>
-							</div>
-						</div>
-					</div>
-					<div class="about_text about_box_two">
-						<h3>02</h3>
-						<span></span>
-						<h2>ARCHITECTURE</h2>
-						<p>There are many variations of passages of Lorem Ipsum text available, but the fact is lorem ipsum dummy text are many  is dummy text ever i have seen </p>
-						<a href="">READ MORE</a>
-					</div>
-				</div>
-
-				<!-- about box three -->
-				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 thred_about">
-					<div class="about_single">
-						<div class="img-holder">
-							<img src=" img/home-1/about3.jpg" alt="img" />
-							<div class="overlay">
-								<a href="#"><i class="fa fa-link"></i></a>
-							</div>
-						</div>
-					</div>
-					<div class="about_text about_box_two">
-						<h3>03</h3>
-						<span></span>
-						<h2>FLOOR DESIGN</h2>
-						<p>There are many variations of passages of Lorem Ipsum text available, but the fact is lorem ipsum dummy text are many  is dummy text ever i have seen </p>
-						<a href="">READ MORE</a>
-					</div>
-				</div>
 			</div>
 		</div>
 	</section>
 	<!-- end area -->
-
-	<!-- choose area start -->
-	<section id="choose_area">
-		<!-- choose area left -->
-		<div class="choose_image">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="choose"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Offer right -->
-		<div class="choose_text">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="choose ">
-							<div class="choose_img">
-								 <h2>Why choose us ?</h2>
-								 <h3>Some lorem ipsum sub heading</h3>
-								 <span class="choose_separator"></span>
-
-								 <!-- choose icon -->
-								 <div class="choose_icon">
-									<div class="choose_left">
-										<span class="flaticon-coffee135"></span>
-									</div>
-									<div class="choose_right">
-										<p>Lorem Ipsum is simply dummy text of the printing and
-										typesetting industry. Lorem Ipsum </p>
-									</div>
-								 </div>
-
-								  <!-- choose icon -->
-								  <div class="choose_icon">
-									<div class="choose_left">
-										<span class="flaticon-trophy71"></span>
-									</div>
-									<div class="choose_right">
-										<p>Lorem Ipsum is simply dummy text of the printing and
-										typesetting industry. Lorem Ipsum </p>
-									</div>
-								 </div>
-
-								  <!-- choose icon -->
-								  <div class="choose_icon">
-									<div class="choose_left">
-										<span class="flaticon-like80"></span>
-									</div>
-									<div class="choose_right">
-										<p>Lorem Ipsum is simply dummy text of the printing and
-										typesetting industry. Lorem Ipsum </p>
-									</div>
-								 </div>
+	<div id="great_area">
+		<div class="container">
+			<div class="row">
+				<div class="great">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="about_single">
+							<div class="img-holder great_left">
+								<img src="img/home-2/about_bg.jpg" alt="" />
+								<div class="overlay">
+									<a href="#"><i class="fa fa-link"></i></a>
+								</div>
 							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="great_right">
+							<h2>Great template for interior design Co</h2>
+							<h3>Some lorem ipsum sub heading</h3>
+							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+							<p>randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything  t. All the Lorem Ipsum generators on the tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</p>
+							<button class="btn btn-info great_button">LEARN MORE</button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+	<!-- Project counter area start -->
+	<section id="counter_area">
+		<h2 class="hide">title</h2>
+		<div class="Counter counter-one">
+			<ul>
+				<li>
+					<i class="flaticon-like80"></i>
+					<div class="icon_text">
+						<span><b class="timer" data-from="10" data-to="1532" data-speed="5000" data-refresh-interval="50">1532+</b><br></span>
+						<div class="title_counter">Cup of coffe</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="Counter counter-two">
+			<ul>
+				<li>
+					<i class="flaticon-coffee135"></i>
+					<div class="icon_text">
+						<span><b class="timer" data-from="10" data-to="1532" data-speed="5000" data-refresh-interval="50">1532+</b><br></span>
+						<div class="title_counter">Cup of coffe</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="Counter counter-one">
+			<ul>
+				<li>
+					<i class="flaticon-trophy71"></i>
+					<div class="icon_text">
+						<span><b class="timer" data-from="10" data-to="1532" data-speed="5000" data-refresh-interval="50">1532+</b><br></span>
+						<div class="title_counter">Cup of coffe</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="Counter counter-two">
+			<ul>
+				<li>
+					<i class="flaticon-coffee135"></i>
+					<div class="icon_text">
+						<span><b class="timer" data-from="10" data-to="1532" data-speed="5000" data-refresh-interval="50">1532+</b><br></span>
+						<div class="title_counter">Cup of coffe</div>
+					</div>
+				</li>
+			</ul>
+		</div>
 	</section>
-	<!-- choose area end  -->
-
-	<!-- project area start -->
+	<!-- Project counter area end -->
 	<section id="project-version-two">
 		<div class="container">
 			<div class="row">
@@ -657,7 +593,6 @@
 		</div>
 	</section>
 	<!-- Project end area -->
-
 	<!--- service start area -->
 	<section id="service_area_two">
 		<div class="container">
@@ -728,7 +663,7 @@
 	<!-- service end area -->
 
 	<!--- start area -->
-	<section id="process_area">
+	<section id="process_area" class="process_area_two">
 		<div class="container">
 			<div class="row">
 				<div class="head_title process text-center">
@@ -751,10 +686,10 @@
 								</div>
 							</div>
 							<div class="single_time_line">
-								<img src=" img/home-1/idea.jpg" alt="img" />
+								<img src="img/home-1/idea.jpg" alt="img" />
 							</div>
 							<div class="single_time_line single_right">
-								<img src=" img/home-1/idea-2.jpg" alt="img" />
+								<img src="img/home-1/idea-2.jpg" alt="img" />
 								<div class="circle_bg_two">
 									<div class="cercle_two">2</div>
 								</div>
@@ -777,10 +712,10 @@
 								</div>
 							</div>
 							<div class="single_time_line">
-								<img src=" img/home-1/idea.jpg" alt="img" />
+								<img src="img/home-1/idea.jpg" alt="img" />
 							</div>
 							<div class="single_time_line single_right">
-								<img src=" img/home-1/idea-2.jpg" alt="img" />
+								<img src="img/home-1/idea-2.jpg" alt="img" />
 								<div class="circle_bg_foure">
 									<div class="cercle_four">4</div>
 								</div>
@@ -804,90 +739,89 @@
 	<section id="testimonial_area_two">
 		<div class="container">
 			<div class="row">
-				<div class="testimoinal_title text-center">
-					<h3>Testimonials</h3>
-					<h2>What Other Said</h2>
-					<span></span>
-
-				</div>
 				<div class="testimonial_content">
 					<div class="col-md-12">
-					<ul class="bxslider">
-						  <li>
-						  <div class="horizen">
-								<div class="slider_left">
-									<img src=" img/home-1/testimonial_author.png" alt="img" />
-								</div>
-								<div class="slider_right">
+						<div id="owl-demo-two" >
+							<div class="items text-center">
+								<img src="img/home-1/test-3.png" alt="img" />
+								<div class="owl_details">
 									<h2>RASHED KABIR</h2>
 									<h3>Marketing manager, Ajaira Co</h3>
 									<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-									embarrassing hidden in the middle of tex</p>
+									 </p>
 								</div>
 							</div>
-						  </li>
-						  <li>
-						  <div class="horizen">
-								<div class="slider_left">
-									<img src=" img/home-1/testimonial_author.png" alt="img" />
-								</div>
-								<div class="slider_right">
+							<div class="items text-center">
+								<img src="img/home-1/test-1.png" alt="img" />
+								<div class="owl_details">
 									<h2>RASHED KABIR</h2>
 									<h3>Marketing manager, Ajaira Co</h3>
 									<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-									embarrassing hidden in the middle of tex</p>
+									 </p>
 								</div>
 							</div>
-						  </li>
-						   <li>
-						  <div class="horizen">
-								<div class="slider_left">
-									<img src=" img/home-1/testimonial_author.png" alt="img" />
-								</div>
-								<div class="slider_right">
+							<div class="items text-center">
+								<img src="img/home-1/test-2.png" alt="img" />
+								<div class="owl_details">
 									<h2>RASHED KABIR</h2>
 									<h3>Marketing manager, Ajaira Co</h3>
 									<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-									embarrassing hidden in the middle of tex</p>
+									 </p>
 								</div>
 							</div>
-						  </li>
+							<div class="items text-center">
+								<img src="img/home-1/test-3.png" alt="img" />
+								<div class="owl_details">
+									<h2>RASHED KABIR</h2>
+									<h3>Marketing manager, Ajaira Co</h3>
+									<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+									 </p>
+								</div>
+							</div>
+							<div class="items text-center">
+								<img src="img/home-1/test-1.png" alt="img" />
+								<div class="owl_details">
+									<h2>RASHED KABIR</h2>
+									<h3>Marketing manager, Ajaira Co</h3>
+									<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+									 </p>
+								</div>
+							</div>
 
-
-						</ul>
+						</div>
 					</div>
 					<div class="col-md-12">
-						<div class="partner">
+						<div class="partner partner_two">
 							<div id="owl-demo-brand-two" >
 								<div class="item itme_brand_two">
-									<img src=" img/home-1/brand-1.png" alt="img" />
+									<img src="img/home-1/brand-1.png" alt="img" />
 								</div>
 								<div class="item itme_brand_two">
-									<img src=" img/home-1/brand-2.png" alt="img" />
+									<img src="img/home-1/brand-2.png" alt="img" />
 								</div>
 								<div class="item itme_brand_two">
-									<img src=" img/home-1/brand-3.png" alt="img" />
+									<img src="img/home-1/brand-3.png" alt="img" />
 								</div>
 								<div class="item itme_brand_two">
-									 <img src=" img/home-1/brand-4.png" alt="img" />
+									 <img src="img/home-1/brand-4.png" alt="img" />
 								</div>
 								<div class="item itme_brand_two">
-									 <img src=" img/home-1/brand-5.png" alt="img" />
+									 <img src="img/home-1/brand-5.png" alt="img" />
 								</div>
 								<div class="item itme_brand_two">
-									<img src=" img/home-1/brand-1.png" alt="img" />
+									<img src="img/home-1/brand-1.png" alt="img" />
 								</div>
 								<div class="item itme_brand_two">
-									<img src=" img/home-1/brand-2.png" alt="img" />
+									<img src="img/home-1/brand-2.png" alt="img" />
 								</div>
 								<div class="item itme_brand_two">
-									<img src=" img/home-1/brand-3.png" alt="img" />
+									<img src="img/home-1/brand-3.png" alt="img" />
 								</div>
 								<div class="item itme_brand_two">
-									 <img src=" img/home-1/brand-4.png" alt="img" />
+									 <img src="img/home-1/brand-4.png" alt="img" />
 								</div>
 								<div class="item itme_brand_two">
-									 <img src=" img/home-1/brand-5.png" alt="img" />
+									 <img src="img/home-1/brand-5.png" alt="img" />
 								</div>
 							</div>
 						</div>
@@ -898,13 +832,14 @@
 	</section>
 	<!-- end area -->
 
+
 	<!--- News start area -->
 	<section id="news_area">
 		<div class="container">
 			<div class="row">
 				<div class="head_title testimonial text-center">
 					<h4>News</h4>
-					<h2>Recent News</h2>
+					<h2>RECENT NEWS</h2>
 					<span></span>
 				</div>
 				<div class="news_content">
@@ -912,7 +847,7 @@
 						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 single_news ">
 							<div class="news_img">
 								<div class="img-holder">
-									<img src=" img/home-1/news-1.jpg" alt="img" />
+									<img src="img/home-1/news-1.jpg" alt="img" />
 									<div class="overlay">
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div>
@@ -926,7 +861,7 @@
 								<div class="news_author">
 									<div class="col-lg-3 col-md-3">
 										<div class="author_img">
-											<img src=" img/home-1/short_img.png" alt="img" />
+											<img src="img/home-1/short_img.png" alt="img" />
 										</div>
 									</div>
 									<div class="author_text">
@@ -939,7 +874,7 @@
 						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 single_news ">
 							<div class="news_img ">
 								<div class="img-holder">
-									<img src=" img/home-1/News-2.jpg" alt="img" />
+									<img src="img/home-1/News-2.jpg" alt="img" />
 									<div class="overlay">
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div>
@@ -953,7 +888,7 @@
 								<div class="news_author">
 									<div class="col-lg-3 col-md-3">
 										<div class="author_img">
-											<img src=" img/home-1/short_img.png" alt="img" />
+											<img src="img/home-1/short_img.png" alt="img" />
 										</div>
 									</div>
 									<div class="author_text">
@@ -966,7 +901,7 @@
 						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12  single_news">
 							<div class="news_img">
 								<div class="img-holder">
-									<img src=" img/home-1/News-3.jpg" alt="img" />
+									<img src="img/home-1/News-3.jpg" alt="img" />
 									<div class="overlay">
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div>
@@ -980,7 +915,7 @@
 								<div class="news_author">
 									<div class="col-lg-3 col-md-3">
 										<div class="author_img">
-											<img src=" img/home-1/short_img.png" alt="img" />
+											<img src="img/home-1/short_img.png" alt="img" />
 										</div>
 									</div>
 									<div class="author_text">
@@ -993,7 +928,7 @@
 						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 single_news ">
 							<div class="news_img ">
 								<div class="img-holder">
-									<img src=" img/home-1/News-4.jpg" alt="img" />
+									<img src="img/home-1/News-4.jpg" alt="img" />
 									<div class="overlay">
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div>
@@ -1007,7 +942,7 @@
 								<div class="news_author">
 									<div class="col-lg-3 col-md-3">
 										<div class="author_img">
-											<img src=" img/home-1/short_img.png" alt="img" />
+											<img src="img/home-1/short_img.png" alt="img" />
 										</div>
 									</div>
 									<div class="author_text">
@@ -1051,7 +986,7 @@
 						<div class="column-two">
 
 							<div class="column_img">
-								<img src=" img/page/blog/post-3.jpg" alt="img" />
+								<img src="img/page/blog/post-3.jpg" alt="img" />
 							</div>
 							<div class="column_text">
 								<a href="#"><p>Lorem Ipsum is simply dumm text of the and useble</p></a>
@@ -1060,7 +995,7 @@
 						</div>
 						<div class="column-two">
 							<div class="column_img">
-								<img src=" img/home-1/latest-1.jpg" alt="img" />
+								<img src="img/home-1/latest-1.jpg" alt="img" />
 							</div>
 							<div class="column_text">
 								<a href="#"><p>Lorem Ipsum is simply dumm text of the and useble</p></a>
@@ -1069,7 +1004,7 @@
 						</div>
 						<div class="column-two">
 							<div class="column_img">
-								<img src=" img/page/blog/post-2.jpg" alt="img" />
+								<img src="img/page/blog/post-2.jpg" alt="img" />
 							</div>
 							<div class="column_text">
 								<a href="#"><p>Lorem Ipsum is simply dumm text of the and useble</p></a>
@@ -1100,12 +1035,12 @@
 						<div class="small_gallery">
 							<h2>Gallery</h2>
 							<span></span>
-							<img src=" img/home-1/laest-2.jpg" alt="img" />
-							<img src=" img/home-1/laest-3.jpg" alt="img" />
-							<img src=" img/home-1/laest-4.jpg" alt="img" />
-							<img src=" img/home-1/laest-5.jpg" alt="img" />
-							<img src=" img/home-1/laest-6.jpg" alt="img" />
-							<img src=" img/home-1/laest-7.jpg" alt="img" />
+							<img src="img/home-1/laest-2.jpg" alt="img" />
+							<img src="img/home-1/laest-3.jpg" alt="img" />
+							<img src="img/home-1/laest-4.jpg" alt="img" />
+							<img src="img/home-1/laest-5.jpg" alt="img" />
+							<img src="img/home-1/laest-6.jpg" alt="img" />
+							<img src="img/home-1/laest-7.jpg" alt="img" />
 						</div>
 					</div>
 				</div>
@@ -1135,8 +1070,9 @@
 		</div>
 	</section>
 
-	<!-- footer end area -->
-	<!-- jquery library -->
+
+
+
 	<script src=" js/jquery.min.js"></script>
 	<!-- bootstrap -->
 	<script src=" js/bootstrap.min.js"></script>
@@ -1147,6 +1083,7 @@
     <script src=" js/jquery.sticky.js"></script>
 	<!-- Count To JS -->
 	<script src=" js/jquery.countTo.js"></script>
+	<script src=" js/jquery.appear.js"></script>
 	<!-- iSotope JS -->
 	<script src=" js/isotope.pkgd.min.js"></script>
 	 <!-- Revolution Slider Tools -->

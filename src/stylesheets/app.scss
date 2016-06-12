@@ -1,0 +1,55 @@
+// @import normalize
+// @import base/mixins
+
+$gutter: 50px;
+$main-color: red;
+
+.container-test {
+	padding: $gutter;
+}
+
+.brand-title {
+	&--first {
+		color: red;
+	}
+
+	&--rest {
+		color: white;
+	}
+}
+
+.main-slider {
+	.bold-heading {
+		color: white;
+	}
+
+	.roman-text {
+		color: red;
+		font-weight: 600;
+	}
+
+	.trans-heading {
+		color: white;
+	}
+
+	.slider-btn {
+		color: white;
+		border-color: white;
+	}
+}
+
+.tp-caption a {
+	color: white;
+}
+
+span.border {
+	border-color: $main-color;
+}
+
+.stricky-fixed span.border {
+	border-color: $main-color;
+}
+
+.company_cell ul li i {
+	color: $main-color;
+}
