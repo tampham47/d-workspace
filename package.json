@@ -20,7 +20,8 @@
     "demo": "gulp production && gulp server",
     "test": "gulp production && karma start --single-run",
     "test:watch": "karma start",
-    "test:gulp": "mocha ./gulpfile.js/**/*.test.js"
+    "test:gulp": "mocha ./gulpfile.js/**/*.test.js",
+    "deploy_prod": "ssh -i _deploy/chamxanh.pem ubuntu@ec2-54-169-64-12.ap-southeast-1.compute.amazonaws.com 'cd prod/workspace && git pull'"
   },
   "devDependencies": {
     "babel-core": "6.7.2",

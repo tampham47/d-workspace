@@ -1,18 +1,18 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
-Project:	DUPLEX HTML 
+Project:	DUPLEX HTML
 Version:	1.1
 -------------------------------------------------------------------*/
- 
+
 /**
 *****************************************
 * Table Of content
 ******************************************
 
- Sticky Header style 
- Home page one About area 
+ Sticky Header style
+ Home page one About area
  Home page one Choose area
- Home page one Choose icon 
+ Home page one Choose icon
  Home page one Process area
  Home page one service area
  Home page one Time line
@@ -25,7 +25,7 @@ Version:	1.1
  Home page two
  Home page two side menu
  Home page Carousel Slider
- Home page Great area 
+ Home page Great area
  Home page counter_area
  Home page two service
  Home page two process area
@@ -38,13 +38,13 @@ Version:	1.1
  blog-details
  Shop page
  CONTACT US
- 
- 
- 
- 
- 
+
+
+
+
+
  */
- 
+
  /****** fonts *********/
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700);
 @import url(https://fonts.googleapis.com/css?family=Bitter:400,400italic,700);
@@ -67,17 +67,17 @@ Version:	1.1
 @import url('owl.carousel.css');
 @import url('jquery.bxslider.css');
 @import url('jquery.smartmenus.bootstrap.css');
- 
- 
-/*** 
+
+
+/***
 
 ====================================================================
 	Global Style
 ====================================================================
 
-***/ 
+***/
 
-   
+
 img {
     max-width: 100%;
 }
@@ -89,15 +89,15 @@ a, a:hover, a:active, a:focus {
     text-decoration: none;
     outline: none;
 }
- 
- 
-/*** 
+
+
+/***
 
 ====================================================================
 	Home page One start
 ====================================================================
 
-***/ 
+***/
 
  /*======== preloader  Styles ===========*/
  .preloaderbox {
@@ -112,7 +112,7 @@ a, a:hover, a:active, a:focus {
     background-repeat: no-repeat;
     background-image: url(../img/home-1/preloader.gif);
  }
- 
+
 
 
 /*======== stricky header Styles ===========*/
@@ -124,12 +124,12 @@ a, a:hover, a:active, a:focus {
   z-index: 999;
   background:;
 }
- 
+
  .stricky-fixed .navigation_area{
 	background:rgba(0, 0, 0, 0.7);
 	height:70px;
 }
-  
+
  .stricky-fixed #manu_area{
 	 height:70px;
  }
@@ -143,7 +143,7 @@ a, a:hover, a:active, a:focus {
 	 display:none !important;
  }
 .stricky-fixed .navbar{
-	 
+
 }
 .stricky-fixed .nav>li>a {
     position: relative;
@@ -170,7 +170,7 @@ a, a:hover, a:active, a:focus {
     -moz-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
-    margin: 29px 0 0 20px; 
+    margin: 29px 0 0 20px;
 }
  .stricky-fixed .navbar-nav .dropdown-menu {
     white-space: normal;
@@ -189,7 +189,7 @@ a, a:hover, a:active, a:focus {
   -o-transition: all .5s ease;
   -ms-transition: all .5s ease;
   transition: all .5s ease;
-} 
+}
 
 #header_social{
 	background:url(../img/home-1/header_bg.jpg) ;
@@ -213,7 +213,7 @@ a, a:hover, a:active, a:focus {
 	font-weight:500;
 	font-size:12px;
 	color:#fff;
-	
+
 }
 .company_cell ul li i {
     color: #f8aa27;
@@ -223,7 +223,7 @@ a, a:hover, a:active, a:focus {
     display: block;
     float: left;
 }
- 
+
 .company_cell {
     padding-top: 2%;
     margin-left: -15px;
@@ -233,11 +233,11 @@ a, a:hover, a:active, a:focus {
     padding-top: 10px;
 }
  header.header,
-.sticky-wrapper { 
+.sticky-wrapper {
     left: 0;
     top: 0;
     width: 100%;
-    z-index: 999; 
+    z-index: 999;
     transition: .4s;
     -moz-transition: .4s;
     -webkit-transition: .4s;
@@ -266,18 +266,18 @@ header.header a:hover { color: #DF451B }
     background: #f8aa27;
 }
 .hide{display:none;}
-.navbar-toggle { 
-    border: 1px solid #f8aa27; 
+.navbar-toggle {
+    border: 1px solid #f8aa27;
 }
- 
+
 .navigation_area{
 	width:100%;
 	height:90x;
 	margin:0 auto;
 }
 .searec_area{
-	width':17%;
-	float:right
+	width:17%;
+	float:right;
 }
 .searec_area input {
     border: none;
@@ -306,20 +306,20 @@ header.header a:hover { color: #DF451B }
 }
 
 .navbar {
-    border-radius: 4px; 
+    border-radius: 4px;
 }
 a.navbar-brand {
     font-family: Open Sans Condensed;
     font-size: 30px;
     font-weight: 700;
     color: #fff !important;
-    border: 1px solid #fff; 
+    border: 1px solid #fff;
     overflow: hidden;
 	margin-top: 20px;
-} 
+}
 .navbar-collapse.collapse.in {
      background: url(../img/home-1/header_bg.jpg) repeat;
-	 
+
 }
 .navbar-nav {
     float: right;
@@ -342,21 +342,21 @@ a.navbar-brand {
 	transition:all ease-in-out 300ms;
 	-webkit-transition:all ease-in-out 300ms;
 	-moz-transition:all ease-in-out 300ms;
-	 
+
 }
-.navbar-nav>li>ul li  { 
+.navbar-nav>li>ul li  {
     border-top: 1px solid rgba(195, 189, 189, 0.5)  ;
 }
-.navbar-nav>li>ul li:first-child  { 
+.navbar-nav>li>ul li:first-child  {
     border-top: 0px solid;
 }
 
  .navbar-nav>li>ul li a {
     font-family: Titillium Web;
     font-size: 13px;
-    line-height: 24px; 
+    line-height: 24px;
 }
- 
+
 .dropdown-menu{
 	background:none;
 }
@@ -391,11 +391,11 @@ span.border {
     -moz-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
-    margin: 29px 0 0 26px; 
+    margin: 29px 0 0 26px;
 }
-.dropdown-menu { 
+.dropdown-menu {
     padding: 0 0;
-    margin: 0px 0 0; 
+    margin: 0px 0 0;
 }
 span.caret-home{
 	display:none ;
@@ -407,7 +407,7 @@ span.caret-home{
     width: 100%;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Slider style
@@ -422,27 +422,27 @@ span.caret-home{
 }
 
 .main-slider h1{
-	font-size:77px; 
+	font-size:77px;
 	font-weight:400;
 	letter-spacing:2px;
 	text-transform:uppercase;
 	color:#181818;
 	font-family: 'Titillium Web', sans-serif !Important;
-	 
+
 }
 
 .main-slider h2{
 	font-size:18px;
-	padding:5px 10px; 
+	padding:5px 10px;
 	text-transform:uppercase;
 	color:#141414;
 	font-weight:600;
 	font-family: 'Open Sans', sans-serif;
 }
- 
+
 .main-slider h3{
 	font-size:77px;
-	padding:5px 10px; 
+	padding:5px 10px;
 	font-weight:900;
 	text-transform:uppercase;
 	font-family: 'Titillium Web', sans-serif;
@@ -462,11 +462,11 @@ span.caret-home{
     cursor: pointer;
 }
 .slider-btn a {
-  font-size: 13px !important; 
+  font-size: 13px !important;
 }
 .main-slider .roman-text{
 	font-size:77px;
-	padding:10px 10px !important; 
+	padding:10px 10px !important;
 	text-transform:uppercase;
 	color:#181818;
 	font-weight:900;
@@ -484,8 +484,8 @@ span.caret-home{
 	border-color:#f8aa27 !important;
 	background:#ffffff !important;
 }
- 
-/*** 
+
+/***
 
 ====================================================================
 	About area
@@ -526,7 +526,7 @@ section#aboutus_area {
     color: #494949;
     font-family: 'Poppins', sans-serif;
     margin: 0 16%;
-    line-height: 26px; 
+    line-height: 26px;
     font-weight: 500;
     padding-top: 10px;
 }
@@ -580,7 +580,7 @@ section#aboutus_area {
     -webkit-transition:all ease-out 300ms;
     -moz-transition:all ease-out 300ms;
     -ms-transition:all ease-out 300ms;
-	 
+
 }
 
 
@@ -653,7 +653,7 @@ section#aboutus_area {
 .about_text span {
     background: #f8aa27;
     width: 15px;
-    height: 2px; 
+    height: 2px;
     display: inline-block;
 }
 .about_text h3 {
@@ -702,14 +702,14 @@ section#aboutus_area {
     background: url(../img/home-1/text-1.jpg);
     background-size: cover;
 }
-/*** 
+/***
 
 ====================================================================
 	Choose area
 ====================================================================
 
 ***/
- 
+
 .choose_img h2 {
     font-size: 28px;
     color: #fff;
@@ -758,7 +758,7 @@ section#aboutus_area {
     width: 55%;
     overflow: hidden;
 }
- 
+
 
 #choose_area {
 	width:100%;
@@ -779,7 +779,7 @@ section#aboutus_area {
     height: 540px;
     background-size: cover;
 }
- 
+
 .short {
     font-family: Montserrat;
     color: #3f3e3e;
@@ -793,12 +793,12 @@ section#aboutus_area {
     color: #3f3e3e;
     font-size: 24px;
 }
-  
+
 .choose {
     padding-left: 80px;
     padding-top: 65px;
 }
- 
+
 #owl-demo .item img{
     display: block;
     width: 100%;
@@ -806,7 +806,7 @@ section#aboutus_area {
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Process area
@@ -946,7 +946,7 @@ section#aboutus_area {
     font-size: 14px;
     line-height: 22px;
     text-transform: capitalize;
-    font-weight: 600; 
+    font-weight: 600;
     text-align: center;
 }
 #project-version-two .masonary-item .img-wrap .content-wrap .content {
@@ -996,7 +996,7 @@ section#service_area {
 .head_title.service.text-center {
     padding-top: 100px;
 }
- 
+
 .single_link {}
 .single_link a{
 	font-family: 'Poppins', sans-serif;
@@ -1036,7 +1036,7 @@ section#service_area {
 	cursor:pointer;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Time Line area
@@ -1065,7 +1065,7 @@ section#testimonial_area {
 .head_title.process.text-center span {
     background: #f8aa27;
     width: 15px;
-    height: 2px; 
+    height: 2px;
     display: inline-block;
 }
 .head_title.process.text-center p {
@@ -1097,7 +1097,7 @@ section#testimonial_area {
     text-align: right;
 }
 .time_line_area{
-	position:relative; 
+	position:relative;
 }
 .time_line_area:before {
     content: "";
@@ -1115,18 +1115,18 @@ section#testimonial_area {
   margin-bottom: 50px;
   width: 38%;
 }
-.single_time_line:nth-child(2n+1){ 
+.single_time_line:nth-child(2n+1){
 	float:left;
 }
-.single_time_line:nth-child(2n+2){ 
+.single_time_line:nth-child(2n+2){
 	float:right;
 }
 .single_time_line.right_timeline h2 {
     float: left !important;
 }
- 
-.single_time_line { 
-	margin-left: 0;  
+
+.single_time_line {
+	margin-left: 0;
 }
 .single_time_line:nth-child(2n+2) {
   float: right;
@@ -1146,7 +1146,7 @@ section#testimonial_area {
   text-align: left;
   width: 100%;
 }
- 
+
 .circle_bg {
     width: 200px;
     height: 100px;
@@ -1261,7 +1261,7 @@ section#testimonial_area {
     top: 7%;
     position: absolute;
     margin-right: -54%;
-    padding-top: 14px; 
+    padding-top: 14px;
 }
 
 
@@ -1283,8 +1283,8 @@ section#testimonial_area {
 	font-weight:300;
 	border:2px solid #f8aa27;
 }
- 
-/*** 
+
+/***
 
 ====================================================================
 	Testimonail area
@@ -1336,7 +1336,7 @@ section#testimonial_area {
     line-height: 28px;
     width: 90%;
 }
- 
+
 .testimoinal_title{}
 .testimoinal_title h2{
 	font-family: 'Titillium Web', sans-serif;
@@ -1353,7 +1353,7 @@ section#testimonial_area {
 .testimoinal_title span{
 	 background: #f8aa27;
     width: 15px;
-    height: 2px; 
+    height: 2px;
     display: inline-block;
 }
 .bx-wrapper .bx-pager {
@@ -1363,7 +1363,7 @@ section#testimonial_area {
     font-weight: bold;
     color: #666;
     top: 20%;
-     
+
 }
 .bx-wrapper .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
     display: block;
@@ -1371,7 +1371,7 @@ section#testimonial_area {
     text-align: right;
     margin: 1% 0;
 }
- 
+
 .head_title.testimonial.text-center h4 {
     color: #f8aa27;
     font-size: 12px;
@@ -1388,7 +1388,7 @@ section#testimonial_area {
 .head_title.testimonial.text-center span {
     background: #f8aa27;
     width: 15px;
-    height: 2px; 
+    height: 2px;
     display: inline-block;
 }
 .head_title.testimonial.text-center p {
@@ -1401,7 +1401,7 @@ section#testimonial_area {
     padding-top: 100px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Client area
@@ -1427,9 +1427,9 @@ div#owl-demo {
     font-size: 15px;
     font-style: italic;
     line-height: 22px;
-    text-align: left; 
+    text-align: left;
 }
- 
+
 
 .item_text h2 {
     font-size: 15px;
@@ -1439,8 +1439,8 @@ div#owl-demo {
 }
 
 .item_text h3 {
-    font-size: 12px; 
-	color:#929090; 
+    font-size: 12px;
+	color:#929090;
 	font-family: 'Poppins', sans-serif;
     font-weight: 500;
 	margin:0 0;
@@ -1450,7 +1450,7 @@ div#owl-demo {
     text-align: center;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Latest News
@@ -1458,7 +1458,7 @@ div#owl-demo {
 
 ***/
 
- 
+
 
 #news_area {
     padding-bottom: 50px;
@@ -1471,7 +1471,7 @@ div#owl-demo {
 }
 .news_img {
     float: left;
-    width: 250px; 
+    width: 250px;
 }
 .news_img .img-holder {
     position: relative;
@@ -1551,7 +1551,7 @@ div#owl-demo {
 .author_img img {
     padding-top: 7px !important;
 }
-.news_author { 
+.news_author {
     width: 250px;
     margin-left: -14px;
 }
@@ -1563,14 +1563,14 @@ div#owl-demo {
     font-weight: 700;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Brand Carusal area
 ====================================================================
 
 ***/
- 
+
 div#brand_area {
     background: #f8aa27 none repeat scroll 0 0;
     height: 100px !important;
@@ -1582,15 +1582,15 @@ div#brand_area {
     font-size: 28px;
     color: #fff;
 }
- 
-/*** 
+
+/***
 
 ====================================================================
-	Footer area 
+	Footer area
 ====================================================================
 
-***/ 
- 
+***/
+
 section#footer_area {
   background: rgba(0, 0, 0, 0) url("../img/home-1/footer_bg.jpg") repeat scroll 0 0 / cover ;
   height: 100%;
@@ -1613,7 +1613,7 @@ section#footer_area {
     height: 2px;
     display: block;
 }
- 
+
 .column_title {
     height: 60px;
 }
@@ -1639,7 +1639,7 @@ section#footer_area {
 .column_img img {
     width: 60px;
     float: left;
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 
 .column_text h3 {
@@ -1694,7 +1694,7 @@ section#footer_area {
     height: 2px;
     display: block;
 }
- 
+
 .small_gallery h2 {
     font-size: 18px;
     color: #fff;
@@ -1723,7 +1723,7 @@ input#exampleInputAmount {
     width: 55px;
     font-size: 20px;
 }
-input#exampleInputAmount { 
+input#exampleInputAmount {
     height: 45px;
     border-radius: 0px;
     font-family: Crimson Text;
@@ -1757,7 +1757,7 @@ input#exampleInputAmount {
     padding-left: 0px;
 }
 .footer_social a:hover{
-	color:#f8aa27; 
+	color:#f8aa27;
 }
 .small_gallery img {
     padding: 3px;
@@ -1796,14 +1796,14 @@ input#exampleInputAmount {
 	font-size:16px;
 }
 
-/*** 
+/***
 
 ====================================================================
-	copy wright area 
+	copy wright area
 ====================================================================
 
 ***/
- 
+
 .copy_left p {
     color: #474747;
     font-size: 12px;
@@ -1813,7 +1813,7 @@ input#exampleInputAmount {
 }
 .copy_left p  span{
 	color:#fff;
-	
+
 }
 .copy_right {
     float: right;
@@ -1825,7 +1825,7 @@ input#exampleInputAmount {
 	list-style:none;
 }
 .copy_right ul li{
-	float:left; 
+	float:left;
 	padding:0 0 !important;
 }
 .copy_right ul li a{
@@ -1840,23 +1840,23 @@ hr.horizenal {
 
 
 
-/******************* Home page One end ***************** 
+/******************* Home page One end *****************
 ***********************************************************/
 
 
 
 
-/******************* Home page two start ***************** 
+/******************* Home page two start *****************
 **********************************************************/
 
 
-/*** 
+/***
 
 ====================================================================
 	Home page two Menu style
 ====================================================================
 
-***/ 
+***/
 
 a.logo {
   text-decoration: none !important;
@@ -1893,7 +1893,7 @@ a.logo {
     margin: 0px;
     line-height: 60px;
     cursor: pointer;
-    width: 100%; 
+    width: 100%;
 }
 .nav-side-menu ul :not(collapsed) .arrow:before,
 .nav-side-menu li :not(collapsed) .arrow:before {
@@ -1950,7 +1950,7 @@ a.logo {
   font-family: Poppins;
   font-size:13px;
   text-transform:uppercase;
-   
+
 }
 .nav-side-menu li a i {
     padding-left: 15px;
@@ -1997,7 +1997,7 @@ a.logo {
     display: block;
   }
 }
- 
+
 /***** side menu ****/
 #sidebar-wrapper {
     z-index:1000;
@@ -2023,7 +2023,7 @@ a.logo {
     padding:0;
     list-style:none;
 }
- 
+
 #sidebar-wrapper.active {
     right:250px;
     width:260px;
@@ -2094,14 +2094,14 @@ a.logo {
     padding:30px 0px;
     transition:all 0.5s;
     z-index:99997;
-	
+
 }
 .fixed {
     position:fixed;
     top:0;
     left:0;
     width:100%;
-    background-color:rgba(0, 0, 0, 0.7); 
+    background-color:rgba(0, 0, 0, 0.7);
     padding:0px;
 }
 .logo {
@@ -2123,7 +2123,7 @@ a.logo {
 #menu-toggle {
     z-index:1;
     font-size:35px;
-    float:right; 
+    float:right;
     color:#000;
     margin:11px 0px;
     padding:2px 10px;
@@ -2132,7 +2132,7 @@ a.logo {
 .fixed #menu-toggle {
     z-index:1;
     font-size:35px;
-    float:right; 
+    float:right;
     color:#fff;
     margin:11px 0px;
     padding:2px 10px;
@@ -2183,22 +2183,22 @@ section#aboutus_area_two{
     font-family: 'Poppins', sans-serif;
     margin: 0 16%;
     line-height: 26px;
-    font-weight: 500; 
+    font-weight: 500;
 }
 
 section#aboutus_area_home {
     margin: 6% 0;
 }
- 
- 
-/*** 
+
+
+/***
 
 ====================================================================
 	Home page two Carousel Slider
 ====================================================================
 
-***/ 
- 
+***/
+
 #slider_part {
     height: 100%;
     width: 100%;
@@ -2221,7 +2221,7 @@ section#aboutus_area_home {
     font-family: 'Titillium Web', sans-serif;
     font-size: 77px;
     font-weight: 300;
-	text-shadow: none;  
+	text-shadow: none;
     margin: 20px 0px;
     transition-delay: .3s;
     -webkit-transition-delay: .3s;
@@ -2232,7 +2232,7 @@ section#aboutus_area_home {
 .carousel-caption p {
 	font-family: Open Sans;
     font-size: 17px;
-    font-weight: 500;  
+    font-weight: 500;
     color: #fff;
     transition-delay: .4s;
     -moz-transition-delay: .4s;
@@ -2427,7 +2427,7 @@ section#aboutus_area_home {
 	height:45px;
 	background:none;
 	border:2px solid #000;
-	border-radius:0px; 
+	border-radius:0px;
 }
 .slider_button:hover{
 	background:none;
@@ -2437,18 +2437,18 @@ section#aboutus_area_home {
 	color:#000;
 	font-size:12px;
 	font-weight:500;
-	border:2px solid #000; 
+	border:2px solid #000;
 }
- 
- /*** 
+
+ /***
 
 ====================================================================
 	Home page two Great area
 ====================================================================
 
-***/ 
- 
- 
+***/
+
+
 div#great_area {
     margin-bottom: 7%;
 }
@@ -2500,17 +2500,17 @@ div#great_area {
 	color:#000;
 	font-size:12px;
 	font-weight:500;
-	border:2px solid #000; 
+	border:2px solid #000;
 }
 
-/*** 
+/***
 
 ====================================================================
 Home page two counter_area
 ====================================================================
 
-***/ 
- 
+***/
+
 .counter_area{
 	width:100%;
 	height:250px;
@@ -2569,14 +2569,14 @@ section#counter_area {
     width: 128px;
 }
 
-/*** 
+/***
 
 ====================================================================
 Home page two service area
 ====================================================================
 
-***/ 
- 
+***/
+
 #service_area_two{
 	background:url(../img/home-2/service-bg.jpg);
 	height:620px;
@@ -2601,14 +2601,14 @@ Home page two service area
 	color:#f8aa27 !important;
 }
 
-/*** 
+/***
 
 ====================================================================
 Home page two process area
 ====================================================================
 
-***/ 
- 
+***/
+
 section.process_area_two {
     background: url(../img/home-2/timeline-bg.jpg);
     height: 100%;
@@ -2616,14 +2616,14 @@ section.process_area_two {
     background-size: cover;
 }
 
-/*** 
+/***
 
 ====================================================================
 Home page two testimonial area
 ====================================================================
 
-***/ 
- 
+***/
+
 section#testimonial_area_two {
     background: url(../img/home-2/testimonial.jpg);
     background-size: cover;
@@ -2659,7 +2659,7 @@ section#testimonial_area_two {
 	font-size:12px;
 	font-weight:500;
 }
- 
+
 .owl_details p {
     color: #fff;
     font-family: Bitter !important;
@@ -2726,7 +2726,7 @@ section#testimonial_area_two {
 .page_titel span{
 	background: #f8aa27;
     width: 15px;
-    height: 2px; 
+    height: 2px;
     display: inline-block;
 }
 .page_titel h3{
@@ -2750,13 +2750,13 @@ section#testimonial_area_two {
 	font-family: Poppins;
     font-size: 24px;
     font-weight: 600;
-	color:#000000;	
+	color:#000000;
 }
-.service_right h3{ 
+.service_right h3{
 	font-family: Poppins;
     font-size: 14px;
     font-weight: 600;
-	color:#000000;	
+	color:#000000;
 	line-height:20px;
 }
 .service_right p {
@@ -2784,8 +2784,8 @@ hr {
 	font-weight:700;
 	width:130px;
 	height:45px;
-	background:#f8aa27; 
-	border-radius:0px; 
+	background:#f8aa27;
+	border-radius:0px;
 	border:0px solid;
 }
 .service_one h2 {
@@ -2807,15 +2807,15 @@ hr {
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		ABOUT PAGE
 ====================================================================
 
-***/ 
- 
- 
+***/
+
+
 .about_area{
 	margin:10% 0;
 	height:100%;
@@ -2833,7 +2833,7 @@ hr {
 	font-size:12px;
 	font-weight:500;
 }
-.team_social { 
+.team_social {
     margin: 0 15%;
 }
 .team_social ul{
@@ -2856,13 +2856,13 @@ hr {
     text-align: center;
     border: 1px solid #c3c3c3;
     border-radius: 100%;
-    padding-top: 8px; 
+    padding-top: 8px;
     display: block;
 	text-decoration:none
 }
 .team_social ul li i:hover{
-    color: #fff; 
-    border: 0px solid #c3c3c3; 
+    color: #fff;
+    border: 0px solid #c3c3c3;
 	background:#f8aa27;
 }
 .member_heading{}
@@ -2901,15 +2901,15 @@ div#team_area {
     padding: 5%;
 }
 
-/*** 
+/***
 
 ====================================================================
 		PROJECT PAGE
 ====================================================================
 
-***/ 
- 
- 
+***/
+
+
 /*** Gallery area ****/
 #our_gallery {
   margin-top: 3%;
@@ -2935,7 +2935,7 @@ div#team_area {
 #project-version-one .gallery-filter {
     margin-bottom: 50px;
     text-align: center;
-   
+
 }
 #project-version-one .gallery-filter li {
     display: inline;
@@ -3023,7 +3023,7 @@ div#team_area {
 #project-version-one .single-project-item .img-wrap .content-wrap .content {
     position: relative;
     top: 45%;
-} 
+}
 
 #project-version-one .gallery_two .single-project-item {
     height: 100%;
@@ -3061,28 +3061,28 @@ div#team_area {
 }
 .quote:hover {
     background: none;
-    border: 1px solid #fff; 
+    border: 1px solid #fff;
 }
 .hide{
 	display:none;
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Blog PAGE
 ====================================================================
 
-***/ 
- 
+***/
+
 .blog_content {
     margin: 50px 0;
     overflow: hidden;
 }
-.blog_text h2{ 
-    font-size: 24px; 
-    font-weight: 600; 
+.blog_text h2{
+    font-size: 24px;
+    font-weight: 600;
 	color:#000;
 	font-family:Poppins;
 	margin-top:0%;
@@ -3091,13 +3091,13 @@ div#team_area {
     font-size: 13px;
     font-style: italic;
     color: #c0c0c0;
-    font-family: Bitter; 
+    font-family: Bitter;
     font-weight: normal;
     line-height: 30px;
 }
 .blog_text p{
-	font-size: 13px; 
-    font-weight: 400; 
+	font-size: 13px;
+    font-weight: 400;
 	color:#838383;
 	font-family:Poppins;
 	line-height:25px;
@@ -3107,11 +3107,11 @@ div#team_area {
     width: 100%;
 }
 .blog_text a{
-	font-size: 13px; 
-    font-weight: 600; 
+	font-size: 13px;
+    font-weight: 600;
 	color:#000;
 	font-family:Poppins;
-	 
+
 }
 .author_text{}
 .author_text h2 {
@@ -3133,7 +3133,7 @@ div#team_area {
     padding-top: 5px;
 }
 .single_sidebar {
-     
+
 }
 .sidber_text{
 	float:right
@@ -3181,14 +3181,14 @@ div#team_area {
     float: right;
     width: 170px;
     height: 100px;
-    margin-top: -8%; 
+    margin-top: -8%;
 }
 .blog_details {
     height: 100px;
     margin: 2% 0;
     overflow: hidden;
 }
- 
+
 .catagories ul{
 	margin:0;
 	padding:0;
@@ -3231,7 +3231,7 @@ div#team_area {
     border: 1px solid #e3e3e3;
     padding: 10px;
 }
-.keyword ul li a:hover{ 
+.keyword ul li a:hover{
 	text-decoration:none;
 	font-family:poppins;
 	background:#f8aa27;
@@ -3268,20 +3268,20 @@ div#team_area {
     margin-left: -10%;
 }
 .keyword h2{
-	font-size: 24px; 
-    font-weight: 700; 
+	font-size: 24px;
+    font-weight: 700;
 	color:#000;
 	font-family: 'Titillium Web', sans-serif;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Contact us PAGE
 ====================================================================
 
-***/ 
- 
+***/
+
 .form_send input {
     width: 29%;
     float: left;
@@ -3290,7 +3290,7 @@ div#team_area {
 }
 .form_send input {
     background: #f6f8fa;
-    height: 60px; 
+    height: 60px;
     font-size: 12px;
     color: #a6a6a6;
     border: 1px solid #f0f0f0;
@@ -3348,8 +3348,8 @@ div#contact_area {
     height: 110px;
 }
 .contact h2 {
-	font-size: 32px; 
-    font-weight: 700; 
+	font-size: 32px;
+    font-weight: 700;
 	color:#000;
 	font-family: 'Titillium Web', sans-serif;
 }
@@ -3407,7 +3407,7 @@ div#contact_area {
 }
 .contact_social ul li a{
 	text-decoration:none;
-	
+
 }
 .contact_social ul li i {
   background: #000 none repeat scroll 0 0;
@@ -3420,8 +3420,8 @@ div#contact_area {
   text-align: center;
   width: 35px;
 }
-.contact_social ul li i:hover{ 
-	background:#f8aa27; 
+.contact_social ul li i:hover{
+	background:#f8aa27;
 }
 .submit-form {
     display: inline-block;
@@ -3430,19 +3430,19 @@ div#contact_area {
     padding-bottom: 5%;
 }
 .google-map {
-     
+
     width: 100%;
     height: 400px;
 }
 
-/*** 
+/***
 
 ====================================================================
 		FullWidth Blog PAGE
 ====================================================================
 
-***/ 
- 
+***/
+
 div#blog_page {
     padding: 50px 0 80px 0;
 }
@@ -3494,15 +3494,15 @@ a.pagena:hover{
   width: 100%;
 }
 
- 
+
 a.page-nav {
-    border: 1px solid #dadada; 
+    border: 1px solid #dadada;
 	border-radius:0px !important;
 }
 .page-nav:hover {
    background:#f8aa27 !important;
 }
- 
+
 .pagination > li > a, .pagination > li > span {
   padding: 8px 10px;
 }
@@ -3527,7 +3527,7 @@ a.page-nav {
 }
 
 .circle{
-	 border: 0px solid !important; 
+	 border: 0px solid !important;
 	border-radius:0px !important;
 }
 .circle:hover{
@@ -3541,13 +3541,13 @@ a.page-nav {
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		FullWidth Blog PAGE
 ====================================================================
 
-***/ 
+***/
 .blog_details_area{
 	padding:5px 0;
 }
@@ -3567,14 +3567,14 @@ a.page-nav {
     line-height: 25px;
 }
 .blog_box {
-    padding: 20px 0; 
+    padding: 20px 0;
 }
 .blog_box p{
 	font-family:Bitter;
 	font-weight:500;
 	font-size:17px;
 	color:#1d1d1d;
-	font-style:italic; 
+	font-style:italic;
 }
 .blog_left {
     background: #f6f6f6;
@@ -3590,7 +3590,7 @@ a.page-nav {
     padding:0 10px;
 }
 .blog_right {
-    padding: 0 0; 
+    padding: 0 0;
     height: 200px;
 }
 .blog_right p{
@@ -3638,7 +3638,7 @@ a.page-nav {
 	margin:0;
 	padding:0;
 	list-style:none;
-	 
+
 }
 .blog_social ul li {
     float: left;
@@ -3661,7 +3661,7 @@ a.page-nav {
 }
 .blog_sheare {
     overflow: hidden;
-    padding-bottom: 2%; 
+    padding-bottom: 2%;
 }
 .author_blog {
     border: 1px solid #d5dadd;
@@ -3680,7 +3680,7 @@ a.page-nav {
 .author_text_blog{
 	float:right;
 	width:80%;
-	
+
 }
 .author_text_blog h2{
 	font-family:poppins;
@@ -3699,7 +3699,7 @@ a.page-nav {
 	margin:0;
 	padding:0;
 	list-style:none;
-	
+
 }
 .author_blog_social ul li{
 	float:left;
@@ -3741,7 +3741,7 @@ a.page-nav {
 .comment_h2{
 	float:left;
 }
-.comment_h2 h2{ 
+.comment_h2 h2{
 	font-family:poppins;
 	font-weight:600;
 	font-size:14px;
@@ -3793,8 +3793,8 @@ a.page-nav {
     padding-top: 1%;
     margin-top: 5%;
 }
- 
- .input input { 
+
+ .input input {
     height: 50px;
     width: 100%;
     background: #f3f3f3;
@@ -3826,7 +3826,7 @@ a.page-nav {
     width: 100px;
     height: 45px;
     border: 0px solid;
-    border-radius: 0px; 
+    border-radius: 0px;
     padding-top: 1%;
     margin-top: 2%;
 }
@@ -3838,19 +3838,19 @@ a.page-nav {
 .comment_form hr {
     padding-bottom: 25px;
 }
-/*** 
+/***
 
 ====================================================================
 		Shop page
 ====================================================================
 
-***/ 
+***/
 
- 
+
 div#shop_area {
     padding-top: 4%;
 }
- 
+
 .sidber_text.shop_text h3 {
     font-weight: 700;
     font-family: poppins;
@@ -3917,5 +3917,5 @@ div#shop_area {
     font-family: Bitter;
     font-weight: 600;
 }
- 
- 
+
+
