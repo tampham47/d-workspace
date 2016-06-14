@@ -8,15 +8,27 @@ $main-color: red;
 	padding: $gutter;
 }
 
-// .brand-title {
-// 	&--first {
-// 		color: red;
-// 	}
+.brand-title {
+	&--first {
+		color: red;
+	}
 
-// 	&--rest {
-// 		color: white;
-// 	}
-// }
+	&--rest {
+		color: white;
+	}
+}
+
+span.border {
+	border-color: $main-color;
+}
+
+.stricky-fixed span.border {
+	border-color: $main-color;
+}
+
+.company_cell ul li i {
+	color: $main-color;
+}
 
 // .main-slider {
 // 	.bold-heading {
@@ -41,15 +53,3 @@ $main-color: red;
 // .tp-caption a {
 // 	color: white;
 // }
-
-span.border {
-	border-color: $main-color;
-}
-
-.stricky-fixed span.border {
-	border-color: $main-color;
-}
-
-.company_cell ul li i {
-	color: $main-color;
-}
