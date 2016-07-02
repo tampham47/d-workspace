@@ -6,10 +6,10 @@
     "node": ">=0.12.0 ~5.9.0",
     "npm": ">=2.14.12 ~3.7.3"
   },
-  "homepage": "http://code.viget.com/gulp-starter/",
+  "homepage": "https://github.com/tampham47/d-workspace.git",
   "repository": {
     "type": "git",
-    "url": "git://github.com/vigetlabs/gulp-starter.git"
+    "url": "https://github.com/tampham47/d-workspace.git"
   },
   "scripts": {
     "start": "gulp",
@@ -21,7 +21,7 @@
     "test": "gulp production && karma start --single-run",
     "test:watch": "karma start",
     "test:gulp": "mocha ./gulpfile.js/**/*.test.js",
-    "deploy_prod": "ssh -i _deploy/chamxanh.pem ubuntu@ec2-54-169-64-12.ap-southeast-1.compute.amazonaws.com 'cd prod/workspace && git pull'"
+    "deploy_prod": "ssh -i _deploy/chamxanh.pem ubuntu@ec2-54-169-64-12.ap-southeast-1.compute.amazonaws.com 'cd prod/workspace && git checkout master && git fetch && git checkout gh-pages'"
   },
   "devDependencies": {
     "babel-core": "6.7.2",

@@ -147,6 +147,17 @@ GitHub Pages isn't the most robust of hosting solutions (you'll eventually run i
 
 For non-static sites (Rails, Craft, etc.), make sure the `production` task runs as part of your deploy process.
 
+### Deloy to own server
+In package.json has a script that help you connect to own server & do some commands on this.
+Before you run `deploy_prod` you need to copy `chamxanh.pem` file into _deploy/ folder
+```
+npm run deploy
+npm run deploy_prod
+```
+
+
+
+
 ## Notable changes from 1.0
 - Full asset pipeline and static html compilation
 - `gulpfile.js` is now a directory
